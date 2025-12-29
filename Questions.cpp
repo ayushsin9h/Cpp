@@ -20,6 +20,7 @@ sum ob;
 cout<<"Sum of the series is:  "<<ob.calculate(n)<<endl;
 return 0;
 }
+<<<<<<< HEAD
 
 
 // 2. Write a C++ program to calculate the given series where the number of terms “N” will be user input. The series is 12 + 22 + 32 + 42 +…….+N2. The series calculation will be done in calculation() method and the method should be defined outside of class definition.
@@ -28,6 +29,18 @@ return 0;
 // 3. Write a C++ program to show how to access a hidden global variable which is hiding by local variable.
 
 
+=======
+
+
+// 2. Write a C++ program to calculate the given series where the number of terms “N” will be user input. 
+// The series is 12 + 22 + 32 + 42 +…….+N2. The series calculation will be done in 
+// calculation() method and the method should be defined outside of class definition.
+
+
+// 3. Write a C++ program to show how to access a hidden global variable which is hiding by local variable.
+
+
+>>>>>>> 71defe28af6ed98013432da36c84a5efcf2fed09
 // 4.	Write a C++ program to explain call-by-value, call-by-address and call-by-reference.
 #include<iostream>
 using namespace std;
@@ -59,7 +72,12 @@ int temp=*a;
          }
 
 
+<<<<<<< HEAD
 // 5.	Write a C++ program to calculate simple interest on given principal, period and rate where principal, period and rate are user input. In this program you need to use default argument concept.
+=======
+// 5.	Write a C++ program to calculate simple interest on given principal, period and rate where principal, period and rate are user input.
+//  In this program you need to use default argument concept.
+>>>>>>> 71defe28af6ed98013432da36c84a5efcf2fed09
  #include<iostream>
  using namespace std;
  int main(){
